@@ -1,0 +1,5 @@
+- if defined? user_saml_omniauth_authorize_path
+  = link_to "Login", user_saml_omniauth_authorize_path, method: :post, class: "btn btn-primary", id: "login_button"
+- if Rails.env.development?
+  = link_to "Developer Login", user_developer_omniauth_authorize_path, method: :post, class: "btn btn-primary", id: "login_button_developer"
+

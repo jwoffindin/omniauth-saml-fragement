@@ -1,0 +1,3 @@
+class OmniAuthStrategy < ApplicationRecord
+  
+end
